@@ -1,0 +1,48 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=2cm]{geometry}
+\usepackage[hyphens]{url}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tabularx}
+\usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{caption}
+
+% Global table formatting consistency
+\captionsetup[table]{skip=8pt}
+\renewcommand{\arraystretch}{1.15}
+\setlength{\extrarowheight}{1pt}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+
+% Risk matrix colours
+\definecolor{riskL}{RGB}{56, 142, 60}
+\definecolor{riskM}{RGB}{74, 68, 0}
+\definecolor{riskH}{RGB}{229, 83, 80}
+\definecolor{riskDark}{RGB}{33, 33, 33}
+\definecolor{riskGray}{RGB}{238, 238, 238}
+
+\begin{document}
+
+\tableofcontents
+\newpage
+
+\input{chapters/1_introduction}
+
+\input{chapters/2_safety_considerations}
+
+\input{chapters/3_environmental_impact_assessment}
+
+\input{chapters/4_conclusion}
+
+\input{chapters/a_appendix_a}
+
+\clearpage
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{unsrt}
+\bibliography{general/references}
+
+\end{document}
