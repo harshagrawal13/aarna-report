@@ -30,6 +30,7 @@ Spent SPPS resin, contaminated filtration solids, off-spec product and residues 
 Chemical selection is also relevant from an environmental compliance perspective. The general framework for managing substances of concern is provided by REACH \cite{EU_REACH_2006}, while DMF is subject to a specific restriction under Annex XVII \cite{EU_REACH_DMF_2021}. Therefore, any reduction in DMF usage or substitution with a less problematic solvent would improve the long-term environmental robustness of the process.
 
 \subsection{Solvent Usage and Choices}
+\label{sec:solvent_usage_choices}
 
 One of the primary objectives of this project is to reduce solvent usage by 50\%. As discussed earlier, the process mass intensity (PMI) for semaglutide manufacturing is approximately 14,000~L of solvent per kg of semaglutide, which was taken as the baseline. Accordingly, the target is to reduce solvent consumption to 7,000~L of solvent per kg of semaglutide.
 
@@ -37,18 +38,18 @@ To achieve this, the first major process modification involved transitioning fro
 
 Furthermore, DMF accounts for approximately 40\% of the organic solvents used in SPPS, primarily because very large volumes are consumed during the repeated washing cycles required between each coupling and deprotection step, in addition to DMF's roles in swelling resin beads and dissolving protected amino acids and coupling reagents. While our manufacturing site is in the United States, it is still relevant that DMF is classified as a Substance of Very High Concern (SVHC) in the EU and the UK \cite{ECHA_SVHC} and is subject to increasingly stringent regulatory controls, reflecting the broader direction of travel for solvent selection in pharmaceutical manufacturing. So, replacing DMF would materially reduce the toxicity profile of the solvent system and could lower the overall solvent impact associated with high-volume SPPS washing, which led to the consideration of alternative solvents.
 
-When evaluating alternative solvents for the process, several key requirements must be considered. These include the chemical compatibility of the solvent with the reactants and intermediates, its influence on reaction kinetics, and its overall compatibility with the process conditions. In addition, theoretical feasibility must be established to ensure that candidate solvents can effectively substitute the currently used solvent, DMF, without negatively impacting reaction performance or product quality. Based on these criteria, N-butylpyrrolidinone (NBP) \cite{TODO_NBP} seemed like the best fit for comparison against DMF. Based on the analysis in Section~\ref{sec:TODO}, DMF was chosen as the final solvent.
+When evaluating alternative solvents for the process, several key requirements must be considered. These include the chemical compatibility of the solvent with the reactants and intermediates, its influence on reaction kinetics, and its overall compatibility with the process conditions. In addition, theoretical feasibility must be established to ensure that candidate solvents can effectively substitute the currently used solvent, DMF, without negatively impacting reaction performance or product quality. Based on these criteria, N-butylpyrrolidinone (NBP) \cite{Kumar_NBP_2020} seemed like the best fit for comparison against DMF. Based on the analysis in Section~\ref{sec:solvent_usage_choices}, DMF was chosen as the final solvent.
 
 \subsection{Waste Disposal}
+\label{sec:waste_disposal}
 
-Table~\ref{tab:waste_streams} summarises all the waste streams generated throughout the process, including their compositions, total mass per batch, and the selected disposal methods. For each stream, the justification for the chosen treatment or disposal route is also outlined, based on factors such as chemical composition, environmental impact, and process feasibility.
+Table~\ref{tab:emissions_effluents} summarises the main emissions and effluents generated from waste treatment and incineration, together with batch and annual quantities.
 
 Appendix~\ref{app:incineration} shows the total mass of compounds sent for incineration as well as the corresponding NaOH requirement for flue gas scrubbing. Table~\ref{tab:emissions_effluents} shows the main emissions and effluents generated from the waste treatment and incineration processes, including their quantities.
 
 \begin{table}[htbp]
 \centering
 \caption{Main emissions and effluents from waste treatment and incineration.}
-\label{tab:waste_streams}
 \label{tab:emissions_effluents}
 \small
 \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}X|c|c|>{\raggedright\arraybackslash}X|}
@@ -78,14 +79,16 @@ Appendix~\ref{app:waste_treatment} summarises the chemicals and equipment requir
 It is to be noted that this estimate only includes capital costs for treatment equipment (e.g., incinerator, scrubber, oxidation and neutralisation tanks, filtration units, metal scavenging and biological treatment tanks) and operating costs for chemicals such as NaOH, carbon black, H\textsubscript{2}O\textsubscript{2}, biomass, and electricity. It does not include additional industrial costs such as labour, equipment maintenance, sludge disposal, emissions monitoring, regulatory compliance, or waste transport, which can significantly increase overall treatment costs in pharmaceutical facilities.
 
 \subsection{Utilities}
+\label{sec:utilities}
 
-A detailed evaluation of the utilities required for plant operation is presented in~X. Excluding waste treatment, the total installed electrical load of the plant is 111.8~kW, corresponding to the combined power requirements of pumps and mixers. The plant also requires approximately 1~gpm of industrial water, equivalent to approximately 2000~m$^3$/year, which is subsequently purified using reverse osmosis and electrodeionisation for use in pharmaceutical processing. Additional utilities required to support process operation and temperature control include chilled water, propylene glycol-water brine refrigeration, and low- and medium-pressure steam, as described in~X.
+A detailed evaluation of the utilities required for plant operation is presented in this subsection. Excluding waste treatment, the total installed electrical load of the plant is 111.8~kW, corresponding to the combined power requirements of pumps and mixers. The plant also requires approximately 1~gpm of industrial water, equivalent to approximately 2000~m$^3$/year, which is subsequently purified using reverse osmosis and electrodeionisation for use in pharmaceutical processing. Additional utilities required to support process operation and temperature control include chilled water, propylene glycol-water brine refrigeration, and low- and medium-pressure steam, as described in this subsection.
 
 From a sustainability perspective, the process incorporates solvent recovery and on-site waste treatment systems to reduce solvent consumption and minimise environmental emissions. In addition, propylene glycol-water brine was selected as the refrigeration medium rather than ethylene glycol due to its lower toxicity and favourable safety profile for pharmaceutical manufacturing.
 
 \subsection{Greenhouse Gas Emissions}
+\label{sec:ghg_emissions}
 
-Carbon dioxide emissions from the plant include both direct (Scope~1) and indirect (Scope~2) sources. Annual Scope~1 CO$_2$ emissions are approximately 1,020~ton/year, primarily originating from process vents and incineration flue gases. Indirect CO$_2$ emissions (Scope~2) are estimated at approximately 600~ton/year, arising from the electricity demand of the main process and waste treatment operations, as well as the steam requirements of the plant. SO$_2$ and trace quantities of NO$_x$ are also produced during the incineration process, but these emissions are subsequently treated in a caustic scrubber, ensuring that they are not directly released to the environment. These values provide an overall estimate of the greenhouse gas emissions associated with the facility's operation. A summary of the calculations used to estimate these emissions is provided in Appendix~XX.
+Carbon dioxide emissions from the plant include both direct (Scope~1) and indirect (Scope~2) sources. Annual Scope~1 CO$_2$ emissions are approximately 1,020~ton/year, primarily originating from process vents and incineration flue gases. Indirect CO$_2$ emissions (Scope~2) are estimated at approximately 600~ton/year, arising from the electricity demand of the main process and waste treatment operations, as well as the steam requirements of the plant. SO$_2$ and trace quantities of NO$_x$ are also produced during the incineration process, but these emissions are subsequently treated in a caustic scrubber, ensuring that they are not directly released to the environment. These values provide an overall estimate of the greenhouse gas emissions associated with the facility's operation. A summary of related emissions and treatment calculations is provided in Appendix~\ref{app:incineration} and Appendix~\ref{app:waste_treatment}.
 
 The estimated emissions were compared with regulatory limits specified under the IED and the BAT conclusions for waste incineration and chemical sector emissions. Acid gases generated during incineration, including SO$_2$, HCl and HF, are removed through a caustic scrubbing system prior to atmospheric release. The predicted emission levels therefore remain below typical BAT-associated emission levels for these gases, demonstrating compliance with applicable environmental regulations.
 
