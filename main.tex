@@ -1,15 +1,5 @@
 \documentclass[a4paper, 12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[margin=2cm]{geometry}
-\usepackage[hyphens]{url}
-\usepackage[breaklinks=true]{hyperref}
-\usepackage{tabularx}
-\usepackage{xcolor}
-\usepackage{colortbl}
-\usepackage{multirow}
-\usepackage{array}
-\usepackage{longtable}
-\usepackage{caption}
+\input{general/preamble}
 
 % Global table formatting consistency
 \captionsetup[table]{skip=8pt}
@@ -27,8 +17,13 @@
 
 \begin{document}
 
+% Front cover (PDF)
+\includepdf[pages={1}]{figures/figure/interim_front_cover.pdf}
+
 \tableofcontents
 \newpage
+
+\input{chapters/abbreviations}
 
 \input{chapters/1_introduction}
 
