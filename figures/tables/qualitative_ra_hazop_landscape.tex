@@ -1,0 +1,165 @@
+\documentclass[a4paper]{article}
+\usepackage[a4paper, landscape, margin=1.2cm]{geometry}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{pdflscape}
+\usepackage{booktabs}
+
+\begin{document}
+\pagestyle{empty}
+
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\tabcolsep}{3pt}
+\scriptsize
+
+A qualitative risk assessment was conducted to identify major hazards associated with the process and assess the risks to personnel, equipment, and the environment.
+
+\begin{longtable}{|>{\raggedright\arraybackslash}p{0.08\textwidth}|>{\raggedright\arraybackslash}p{0.055\textwidth}|>{\raggedright\arraybackslash}p{0.11\textwidth}|>{\raggedright\arraybackslash}p{0.045\textwidth}|>{\raggedright\arraybackslash}p{0.045\textwidth}|>{\raggedright\arraybackslash}p{0.045\textwidth}|>{\raggedright\arraybackslash}p{0.105\textwidth}|>{\raggedright\arraybackslash}p{0.105\textwidth}|>{\raggedright\arraybackslash}p{0.095\textwidth}|>{\raggedright\arraybackslash}p{0.04\textwidth}|>{\raggedright\arraybackslash}p{0.04\textwidth}|>{\raggedright\arraybackslash}p{0.04\textwidth}|>{\raggedright\arraybackslash}p{0.085\textwidth}|}
+    \caption{Qualitative RA and HAZOP incident assessment summary.}
+    \label{tab:qualitative_ra_hazop_summary}                                                                                   \\
+    \hline
+    \textbf{Incident} & \textbf{Likelihood} & \textbf{Likelihood basis} & \multicolumn{3}{c|}{\textbf{Severity}} & \multicolumn{3}{c|}{\textbf{Consequence basis}} & \multicolumn{3}{c|}{\textbf{Risk}} & \textbf{Measures / mitigation} \\
+    \hline
+    & & & \textbf{People} & \textbf{Process} & \textbf{Env} & \textbf{People} & \textbf{Process} & \textbf{Env} & \textbf{People} & \textbf{Process} & \textbf{Env} & \\
+    \hline
+    \endfirsthead
+    \hline
+    \textbf{Incident} & \textbf{Likelihood} & \textbf{Likelihood basis} & \multicolumn{3}{c|}{\textbf{Severity}} & \multicolumn{3}{c|}{\textbf{Consequence basis}} & \multicolumn{3}{c|}{\textbf{Risk}} & \textbf{Measures / mitigation} \\
+    \hline
+    & & & \textbf{People} & \textbf{Process} & \textbf{Env} & \textbf{People} & \textbf{Process} & \textbf{Env} & \textbf{People} & \textbf{Process} & \textbf{Env} & \\
+    \hline
+    \endhead
+    \hline
+    \endfoot
+    \hline
+    \endlastfoot
+    Loss of containment in storage and feeding tanks &
+    Improbable &
+    Usually, multiple independent layers of protection, proper material selection and regular maintenance ensure such an event is improbable &
+    Very serious &
+    Very serious &
+    Serious &
+    Leak of toxic chemicals into the plant area, inhalation exposure, chemical burns to skin and eyes, potential worker fatality in confined or poorly ventilated areas &
+    Formation of flammable vapour clouds, contamination of bunded areas and drainage systems, and potential escalation to fire if ignition sources are present &
+    Can lead to toxic environmental release (violation of regulations) &
+    Medium &
+    Medium &
+    Medium &
+    Choose the material in accordance with GMP, install appropriate control loops and alarms, routinely inspect all equipment for any faults \\
+    \hline
+    Ignition of flammable solvent vapours during operation &
+    Unlikely &
+    Requires simultaneous loss of containment, vapour accumulation within flammable limits, and presence of an ignition source; this combination (of independent conditions) reduces the overall event frequency &
+    Severe &
+    Very serious &
+    Very serious &
+    Severe burns or fatalities to personnel and exposure to toxic chemicals, blast injuries (lungs, ears) &
+    Flash fire or vapour cloud explosion, structural damage to equipment and pipework, secondary fires in solvent storage or process areas, prolonged plant shutdown, possible domino escalation to adjacent units &
+    Can lead to toxic environmental release of combustion gases (violation of regulations) &
+    Medium &
+    Medium &
+    Medium &
+    Install ATEX-rated equipment, use nitrogen for blanketing tanks and reactors, ensure that there are proper ventilation systems and gas detectors \\
+    \hline
+    Runaway reaction in the desulfuriser due to accumulation of radical initiator (VA-044) &
+    Probable &
+    Radical initiators are thermally decomposing species and if dosing errors or mixing delays occur, localised hot spots may form, leading to accelerated radical formation and reaction rate increase &
+    Very serious &
+    Very serious &
+    Very serious &
+    Unwanted formation and release of toxic H$_2$S gas, leading to irritations, burns and potential fatality &
+    Uncontrolled decomposition of the radical initiator leading to rapid nitrogen evolution, temperature spike, reactor overpressure, potential relief valve discharge of solvent vapours, damage to reactor internals, and loss of batch integrity &
+    Can lead to toxic environmental release and runoff (violation of regulations) &
+    High &
+    High &
+    High &
+    Use redundant temperature detectors and install alarms, install a PRV for runaway scenario, and account for appropriate ways to dispose of excess H$_2$S (scrubber on vent line) \\
+    \hline
+    Cooling failure in reactor R-3 (supposed to be at -15 C) &
+    Possible &
+    Refrigeration and utility networks have multiple mechanical and control components that can be subject to failure &
+    Minor &
+    Moderate &
+    Moderate &
+    A cooling failure in R-3 can turn the reactor into a high-energy upset condition (rapid temperature rise + pressure build-up), which increases the potential severity of any personnel exposure event &
+    Temperature excursion, causing side reactions, loss of selectivity, accelerated decomposition, gas evolution, and pressure increase; batch rejection (economic loss) &
+    Can lead to toxic environmental release (violation of regulations), extra waste generation from scrapped batch &
+    Low &
+    Medium &
+    Medium &
+    Install temperature probes to continuously monitor temperature, install alarms for high temperature, and train operators to take correct action in case of alarms \\
+    \hline
+    Corrosion over operation period due to presence of chlorides and strong acids &
+    Unlikely &
+    The materials selected for the process equipment are compatible with the chemical environment of the plant, which reduces the likelihood of corrosion &
+    Moderate &
+    Very serious &
+    Very serious &
+    Chemical burns to skin/eyes and possible respiratory irritation/injury from acidic vapours or mist (depending on substance and concentration) &
+    Progressive thinning/pitting in tanks, lines, pumps, and fittings handling HCl/TFA/chloride-containing streams, leading to leaks, contamination and eventual rupture &
+    Can lead to toxic environmental release (violation of regulations), potential metal content in effluent &
+    Low &
+    Medium &
+    Medium &
+    Choose the right material and allow for corrosion when designing thickness of equipment; periodically test the material for faults \\
+    \hline
+    Excess phosphate release in wastewater streams &
+    Unlikely &
+    The process includes on-site effluent collection, following of environmental regulations, and downstream wastewater treatment &
+    Minor &
+    Minor &
+    Severe &
+    Regulatory actions affecting personnel &
+    Reputational damage to the company &
+    Violates wastewater disposal regulations, potential fines or enforcement actions, eutrophication in nearby water bodies &
+    Low &
+    Medium &
+    Medium &
+    Ensure that the on-site wastewater treatment plant follows guidelines for waste disposal limits; frequently sample discharge to ensure it is compliant with limits \\
+    \hline
+    Cross-contamination along the process due to fouling build-up in the continuous section &
+    Frequent &
+    Continuous processing and the propensity of peptide intermediates to precipitate increases the chances of fouling and can occur more than once annually (52 batches) &
+    Moderate &
+    Minor &
+    Minor &
+    Operator exposure risk during maintenance/cleaning of fouled equipment &
+    Carryover impurities, reduced heat transfer, blockage and inconsistent product quality; resulting in out-of-specification product, potential patient safety risk, regulatory recall, and significant financial and reputational loss &
+    Increased CIP chemicals usage, high wastewater treatment load &
+    High &
+    Medium &
+    Medium &
+    Design a robust CIP procedure, periodically inspect all equipment to ensure there is no build-up, formulate a plan to deal with fouling in case it occurs, and test product purity \\
+    \hline
+    Pressure build-up in solvent recycle units (due to excess vapour formation, overfilling etc.) &
+    Possible &
+    Although engineered safeguards and control systems are installed, failures of instrumentation or blockages in vent systems may still lead to overpressure events &
+    Serious &
+    Serious &
+    Serious &
+    Overpressure in the solvent recycle unit may cause personnel injury from rupture/leaks, solvent exposure, or fire/explosion (if flammable) &
+    Risk of ignition, damage to distillation internals &
+    Flammable vapour release into the atmosphere, solvent loss with associated environmental impact &
+    Medium &
+    Medium &
+    Medium &
+    Install pressure and level transmitters, alarms and trips, properly sized PRVs and bursting discs; also connect vent lines to flare \\
+    \hline
+    Pump failure/cavitation due to improper level control in the connected tanks &
+    Improbable &
+    The event would require multiple concurrent failures (level indication failure, alarm failure, operator inaction, poor maintenance), making the overall probability low &
+    Moderate &
+    Serious &
+    Moderate &
+    Pump cavitation can require operator or maintenance intervention on affected pumps, increasing personnel interaction with malfunctioning equipment &
+    Pump cavitation leads to flow loss, inconsistent dosing, seal damage, overheating, leaks and process instability &
+    Can lead to toxic environmental release (violation of regulations) &
+    Low &
+    Medium &
+    Low &
+    Design appropriately taking flow rate requirements into account, monitor vibrations, periodically inspect, and install redundant pumps for important lines \\
+\end{longtable}
+\normalsize
+
+\end{document}
