@@ -60,9 +60,9 @@
     \caption{Risk matrix: colour-coded by risk level (L = Low, M = Medium, H = High).}
     \label{tab:riskmatrix}
     \resizebox{0.75\textwidth}{!}{%
-    \begin{tabular}{|>{\columncolor{riskGray}}C{2cm}|C{0.9cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|}
+    \begin{tabular}{|C{2cm}|C{0.9cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|C{2.4cm}|}
       \hline
-      \multirow{5}{*}{\centering\textbf{Severity (S)}} &
+      \cellcolor{riskGray}                                                   &
       V                                                                      &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
@@ -70,7 +70,7 @@
       \cellcolor{riskH}\textcolor{white}{H}                                  &
       \cellcolor{riskH}\textcolor{white}{H}                                    \\
       \cline{2-7}
-                                                                             &
+      \cellcolor{riskGray}                                                   &
       IV                                                                     &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
@@ -78,7 +78,7 @@
       \cellcolor{riskH}\textcolor{white}{H}                                  &
       \cellcolor{riskH}\textcolor{white}{H}                                    \\
       \cline{2-7}
-                                                                             &
+      \cellcolor{riskGray}\textbf{Severity (S)}                             &
       III                                                                    &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
       \cellcolor{riskM}\textcolor{white}{M}                                  &
@@ -86,7 +86,7 @@
       \cellcolor{riskH}\textcolor{white}{H}                                  &
       \cellcolor{riskH}\textcolor{white}{H}                                    \\
       \cline{2-7}
-                                                                             &
+      \cellcolor{riskGray}                                                   &
       II                                                                     &
       \cellcolor{riskL}\textcolor{white}{L}                                  &
       \cellcolor{riskL}\textcolor{white}{L}                                  &
@@ -94,7 +94,7 @@
       \cellcolor{riskM}\textcolor{white}{M}                                  &
       \cellcolor{riskH}\textcolor{white}{H}                                    \\
       \cline{2-7}
-                                                                             &
+      \cellcolor{riskGray}                                                   &
       I                                                                      &
       \cellcolor{riskL}\textcolor{white}{L}                                  &
       \cellcolor{riskL}\textcolor{white}{L}                                  &
@@ -232,12 +232,6 @@
     Energy demand (main) & 894400 kWh (annual) & 268.32 & 2 \\
     \hline
     Energy demand (waste) & 865000 kWh (annual) & 259.5 & 2 \\
-    \hline
-    \rowcolor{gray!20}\multicolumn{4}{|c|}{\textbf{Total}} \\
-    \hline
-    Scope 1 &  & 1021.3008 &  \\
-    \hline
-    Scope 2 &  & 598.968 &  \\
     \hline
   \end{tabularx}
   \normalsize
